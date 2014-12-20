@@ -1,0 +1,13 @@
+<ion-view>
+  <ion-content ng-repeat="livetemperature in livetemperatures" class="padding" >
+    <div class="row">
+      <div class="col liveTemp"><img class="cloud_icon" src="img/partly_cloudy.png"><br/><br/>{{livetemperatures.temperatureInC}}&#176;C</div>  
+    </div>
+    <div class="row">
+      <div class="col avgTempSmall">{{livetemperatures.timestamp | date:'MM/dd/yyyy @ h:mm:ss a'}}</div>  
+    </div>
+    <div class="row">
+      <div class="col avgTemp">Last Hour Average : {{avgTempLastHour}}&#176; C</div>
+    </div>
+  </ion-content>
+</ion-view>

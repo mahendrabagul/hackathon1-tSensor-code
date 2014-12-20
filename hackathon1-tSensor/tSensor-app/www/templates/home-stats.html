@@ -1,0 +1,30 @@
+<ion-view>
+  <ion-content>
+    <div class="card">
+    <div class="item item-text-wrap">
+      <p>Highest & Lowest Temperature For Current Month</p>
+      <br/>
+      <i class="icon ion-arrow-up-c bordered custIconHigh"></i>  {{highestTempCurrentMonth}} &#176; C
+      <i class="icon ion-arrow-down-c bordered custIconLow"></i> {{lowestTempCurrentMonth}} &#176; C
+      <br/>
+    </div>
+  </div>
+  <div class="card">
+    <div class="item item-text-wrap">
+      <p>Average Temperature For Last Hour</p>
+      <br/>
+      {{avgTempLastHour}} &#176; C
+      <br/>
+    </div>
+  </div>
+  <div class="card">
+    <div class="item item-text-wrap">
+      <p>Average Temperature For Last Month</p>
+      <br/>
+      {{avgTempLastMonth}} &#176; C
+      <br/>
+    </div>
+  </div>
+  
+  </ion-content>
+</ion-view>
