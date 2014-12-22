@@ -14,8 +14,7 @@ We will place the Raspberry Pi and the temperature sensor at Neova's server room
 
 Software 
 
-Javascript
-Node.js, Sails.js, ionic framework
+Javascript, Node.js, Sails.js, ionic framework
 
 Hardware
 
